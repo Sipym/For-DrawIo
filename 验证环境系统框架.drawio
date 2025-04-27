@@ -1,9 +1,128 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="K8Dj4Ko75hXPpcHSDXjS">
-    <mxGraphModel>
+    <mxGraphModel dx="1530" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="945" pageHeight="462" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;strokeColor=#FFD966;strokeWidth=3;" edge="1" parent="1" source="GVkd4OTTW9tGwtN0qj78-2" target="GVkd4OTTW9tGwtN0qj78-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="170" />
+              <mxPoint x="440" y="354" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-43" value="输出寄存器状态到SDB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFD966;fontStyle=1" vertex="1" connectable="0" parent="GVkd4OTTW9tGwtN0qj78-41">
+          <mxGeometry x="0.6509" y="-2" relative="1" as="geometry">
+            <mxPoint x="20" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-2" value="&lt;div&gt;Difftest (DUT)&lt;/div&gt;五级流水线处理器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GVkd4OTTW9tGwtN0qj78-8" target="GVkd4OTTW9tGwtN0qj78-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-11" value="终端输入指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GVkd4OTTW9tGwtN0qj78-10">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-8" value="Terminal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="350" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GVkd4OTTW9tGwtN0qj78-9" target="GVkd4OTTW9tGwtN0qj78-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="420" />
+              <mxPoint x="45" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-38" value="将执行结果，对比结果等输出到终端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GVkd4OTTW9tGwtN0qj78-37">
+          <mxGeometry x="0.0927" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-9" value="SDB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-18" value="Difftest&amp;nbsp; (REF)&lt;div&gt;NEMU&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-23" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=5.925925925925926;endSize=3.9555555555555553;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endWidth=10.425240054869684;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#E5CCFF;fillColor=#E5CCFF;" edge="1" parent="1" source="GVkd4OTTW9tGwtN0qj78-9" target="GVkd4OTTW9tGwtN0qj78-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="340" as="sourcePoint" />
+            <mxPoint x="277.4999999999998" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="260" />
+              <mxPoint x="240" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-24" value="Terminal command: Si 单步执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontColor=#E5CCFF;" vertex="1" connectable="0" parent="GVkd4OTTW9tGwtN0qj78-23">
+          <mxGeometry x="-0.6342" y="-1" relative="1" as="geometry">
+            <mxPoint x="49" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-25" value="Clock" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GVkd4OTTW9tGwtN0qj78-23">
+          <mxGeometry x="0.6235" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;width=5.925925925925926;endSize=5.585185185185185;fillColor=#E5CCFF;strokeColor=#E5CCFF;" edge="1" parent="1" target="GVkd4OTTW9tGwtN0qj78-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="235" as="sourcePoint" />
+            <mxPoint x="309.9999999999998" y="236.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-27" value="Clock" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GVkd4OTTW9tGwtN0qj78-26">
+          <mxGeometry x="-0.142" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-28" value="Difftest&lt;div&gt;比较DUT，REF的状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="472" y="180" width="148" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;endWidth=11.11111111111111;endSize=4;width=5.185185185185185;fillColor=#E5CCFF;strokeColor=#E5CCFF;" edge="1" parent="1" source="GVkd4OTTW9tGwtN0qj78-2" target="GVkd4OTTW9tGwtN0qj78-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="473" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;endWidth=12.592592592592592;endSize=4;width=3.7037037037037033;fillColor=#E5CCFF;strokeColor=#E5CCFF;" edge="1" parent="1" source="GVkd4OTTW9tGwtN0qj78-18" target="GVkd4OTTW9tGwtN0qj78-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;width=6.666666666666666;endSize=5.303703703703704;strokeColor=#E5CCFF;fillColor=#E5CCFF;" edge="1" parent="1" source="GVkd4OTTW9tGwtN0qj78-28" target="GVkd4OTTW9tGwtN0qj78-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="340" as="sourcePoint" />
+            <mxPoint x="480" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="546" y="381" />
+              <mxPoint x="460" y="380" />
+              <mxPoint x="380" y="381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-35" value="返回Difftest 比较结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GVkd4OTTW9tGwtN0qj78-34">
+          <mxGeometry x="0.2922" y="2" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-39" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.136;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endWidth=10.425240054869684;endSize=5.37037037037037;width=5.925925925925926;fillColor=#FFD966;strokeColor=#FFD966;" edge="1" parent="1" source="GVkd4OTTW9tGwtN0qj78-9" target="GVkd4OTTW9tGwtN0qj78-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="340" as="sourcePoint" />
+            <mxPoint x="240" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="198" y="130" />
+              <mxPoint x="337" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVkd4OTTW9tGwtN0qj78-40" value="Terminal Command: Info r打印寄存器状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontColor=#FFD966;" vertex="1" connectable="0" parent="GVkd4OTTW9tGwtN0qj78-39">
+          <mxGeometry x="-0.0331" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
